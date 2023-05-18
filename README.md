@@ -17,7 +17,7 @@ Jia Huang<sup>1</sup>, Alvika Gautam<sup>1</sup>, Junghun Choi<sup>3</sup> and S
 * Inertial Navigation System (GPS/IMU): [Vectornav VN-300 Dual Antenna GNSS/INS](https://www.vectornav.com/products/vn-300)
 * Ultra-Wideband sensors(UWB): [Decawave (now Qorvo) modules (TREK 1000 RTLS evaluation kit with DW 1000 UWB chip configured as 4 Anchors and 6 Tags](https://www.qorvo.com/products/p/DWM1000)
 
-![Sensor Setup Illustration](./images/.png)
+![Sensor Setup Illustration](./images/golfcar_annotated_v3__med.png)
 
 
 ## Folder structure
