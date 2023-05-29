@@ -1,6 +1,6 @@
 <h1>WiDEVIEW: An UltraWideBand and Vision Dataset for Deciphering Pedestrian-Vehicle Interactions</h1>
 <p align="center">
-<a href="https://www.tamu.edu/"><img src="images/tamu_logo.png" alt="Texas A&M University" height="90px" width="450px"></a>&emsp;&emsp;&emsp;&emsp;<a href="https://www.hyundai.com/worldwide/en/"><img src="images/hyundai_logo.png" alt="Hyundai Motor Company" height="90px" width="270px"></a></p>
+<a href="https://www.tamu.edu/"><img src="images/tamu_logo.png" alt="Texas A&M University" height="90px" width="450px"></a>&emsp;&emsp;&emsp;&emsp;<a href="https://www.hyundai.com/worldwide/en/"><img src="images/Hyundai_logo.png" alt="Hyundai Motor Company" height="90px" width="270px"></a></p>
 <p align="center">
 Jia Huang<sup>1</sup>, Alvika Gautam<sup>1</sup>, Junghun Choi<sup>2</sup> and Srikanth Saripalli<sup>1</sup><br>
 1. <a href="https://www.tamu.edu/">Texas A&M University; </a>&emsp;2. <a href="https://www.hyundai.com/worldwide/en/">Hyundai Motor Company</a><br>
