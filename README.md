@@ -83,9 +83,10 @@ Topic Name | Message Tpye | Message Descriptison
 
 
 ### ROS Bag Download
-The following are the links for the ROS Bag files.
+The ROS bag information can be found on the google drive [link]()
+The following are the google drive link for the ROS Bag files.
 
-**Sequence 1**: ([12GB](https://drive.google.com/file/d/1bIb-6fWbaiI9Q8Pq9paANQwXWn7GJDtl/view?usp=sharing)) 
-[![Sequence 1 Video](.jpg)](https://www.youtube.com/watch?v=Qc7IepWGKr8)
+**Sequence 1**: ([12GB]()) 
+[![Sequence 1 Video](.jpg)]()
 
 
