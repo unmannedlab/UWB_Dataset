@@ -4,6 +4,4 @@ UWB_gcart_camchain.yaml contains the camera chain and the intrinsic and extrinsi
 
 All calibration was performed using Kalibr.
 
-The target used was an aprilgrid, the characterisitics of which are described in aprilgrid.yaml.
-
-You can find Kalibr here:   https://github.com/ethz-asl/kalibr.git
+The target used was an aprilgrid, the characterisitics of which are described in aprilgrid.yaml
