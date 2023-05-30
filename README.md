@@ -43,17 +43,16 @@ WiDEVIEW
 </pre>
 
 ## Annotated Data:
-The dataset contains 30936 frames which come from the front three cameras with 10312 frames each. Every 5-th frame was annotated manually and carefully in [Computer Vision Annotation Tool (CVAT)](https://github.com/opencv/cvat/) for the front middle camera frames while the ones in between are interpolated automatically without adjustment. There are a total of    bounding boxes annotated for pedestrians and cyclists along with six tag IDs for those who carried tags. These annotations are exported in MOT 1.1 format for the following multi-object tracking task evaluation for images. Meanwhile, the annotations for the left and right cameras frames are still in progress and will be updated on the github repository continuously.
+The dataset contains 30936 frames which come from the front three cameras with 10312 frames each. Every 5-th frame was annotated manually and carefully in [Computer Vision Annotation Tool (CVAT)](https://github.com/opencv/cvat/) for the front middle camera frames while the ones in between are interpolated automatically without adjustment. There are a total of 8368 bounding boxes manually annotated for pedestrians and cyclists along with six tag IDs for those who carried tags, and 33239 bounding boxes are interpolated in CVAT. These annotations are exported in MOT 1.1 format for the following multi-object tracking task evaluation for images. The annotations for the left and right cameras frames are in progress and will be updated on the Github gradually.
+
 ### Images Statics:
 
 
 ### Image Download:
 
 
-### Calibration Download: 
-**Camera Instrinsic** ([Download 2KB]())
-**Camera Extrinsic** ([Download 2KB]())
-
+### Calibration Download:
+The sensor suite cameras (left, middle and right on the autonomous shuttle roof rack) have a 30$^{\circ}$ overlapping field of view between adjacent cameras. The intrinsic and extrinsic camera parameters are estimated by the multiple camera calibration tool in the [Kalibr toolbox](https://github.com/ethz-asl/kalibr.git). A 6 x 6 aprilgrid target with spacing of 0.03m is used. We utilize a pinhole projection model for our cameras, where a three-dimensional scene is projected onto an image plane through a perspective transform. The calibration details can be found in the folder[]().
 
 ## Benchmarks
 ### 2D object Detection and Tracking
