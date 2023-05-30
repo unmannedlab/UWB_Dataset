@@ -56,9 +56,10 @@ The sensor suite cameras (left, middle and right on the autonomous shuttle roof 
 
 ## Benchmarks
 ### 2D object Detection and Tracking
-Model | HOTA | MOTA | MOTP | IDF1 | MT | ML | FP | FN | ID Sw. | Recall | Precision | Frag 
-------| ---- | ---- |------|------|----|----|----| ---|--------|--------|-----------|-----
-[YOLOv5+DeepSORT](https://github.com/HRNet/HRNet-Semantic-Segmentation/tree/HRNet-OCR) |  |  |  |  |  |  |  |  |  |  |  | 
+Case | HOTA | MOTA | MOTP | IDF1 | FP | FN | ID Sw. | Recall | Precision | Dets | GT Dets | IDs | GT IDs | 
+-----| ---- | ---- |------|------|----|----|--------| -------|-----------|------|---------|-----|--------|
+1| 41.577 | 42.046  | 72.496  |  54.958  | 9144 | 11006  |  729  | 69.451 | 73.236 | 34165 | 36027 | 491 | 231 |
+2| 45.873 | 44.204 | 78.173 | 57.293 | 1607 | 2038 | 398 | 71.874  | 76.42 | 6815 | 7246 | 425| 231|
 
 ### Benchmark Reproduction
 
