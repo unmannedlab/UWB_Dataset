@@ -52,7 +52,7 @@ The dataset contains 30936 frames which come from the front three cameras with 1
 
 
 ### Calibration Download:
-The sensor suite cameras (left, middle and right on the autonomous shuttle roof rack) have a 30$^{\circ}$ overlapping field of view between adjacent cameras. The intrinsic and extrinsic camera parameters are estimated by the multiple camera calibration tool in the [Kalibr toolbox](https://github.com/ethz-asl/kalibr.git). A 6 x 6 aprilgrid target with spacing of 0.03m is used. We utilize a pinhole projection model for our cameras, where a three-dimensional scene is projected onto an image plane through a perspective transform. The calibration details can be found in the folder[UWB-gcart-camera-calibration](https://github.com/unmannedlab/UWB_Dataset/tree/main/UWB-gcart-camera-calibration).
+The sensor suite cameras (left, middle and right on the autonomous shuttle roof rack) have a 30$^{\circ}$ overlapping field of view between adjacent cameras. The intrinsic and extrinsic camera parameters are estimated by the multiple camera calibration tool in the [Kalibr toolbox](https://github.com/ethz-asl/kalibr.git). A 6 x 6 aprilgrid target with spacing of 0.03m is used. We utilize a pinhole projection model for our cameras, where a three-dimensional scene is projected onto an image plane through a perspective transform. The calibration details can be found in the folder [UWB-gcart-camera-calibration](https://github.com/unmannedlab/UWB_Dataset/tree/main/UWB-gcart-camera-calibration).
 
 ## Benchmarks
 ### 2D object Detection and Tracking
