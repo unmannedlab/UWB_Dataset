@@ -91,67 +91,64 @@ The ROS bag information can be found on the google drive [link](https://docs.goo
 The following are the google drive link for the ROS Bag files.
 
 **Sequence 1**: ([19.91GB](https://drive.google.com/file/d/1tOMAYwOUGYVq7jfs5F5ZCDDZ7fwEFXc2/view?usp=sharing)) 
-[![Sequence 1 Video](.jpg)]()
+
 
 **Sequence 2**: ([19.94GB](https://drive.google.com/file/d/1hmkmC3KwE1jkIi5df38B_hfaE9owscdu/view?usp=sharing))
-[![Sequence 2 Video](.jpg)]()
+
 
 **Sequence 3**: ([20.07GB](https://drive.google.com/file/d/1PwoA0ik7FMCpiS4KSIs_cBOI4ol7qva0/view?usp=sharing))
-[![Sequence 3 Video](.jpg)]()
 
 **Sequence 4**: ([18.42GB](https://drive.google.com/file/d/1Lt28cGu4xsc_9XcvLRnotx-tfjuca-Rw/view?usp=sharing))
-[![Sequence 4 Video](.jpg)]()
+
 
 **Sequence 5**: ([7.29GB](https://drive.google.com/file/d/1O3oExGM51-mb4aSCWnL--RHBzU6Bu7AV/view?usp=sharing))
-[![Sequence 5 Video](.jpg)]()
+
 
 **Sequence 6**: ([8.04GB](https://drive.google.com/file/d/1yf41QIu9tAkkHrDbitIVVxPuCgrfUB_H/view?usp=sharing))
-[![Sequence 6 Video](.jpg)]()
+
 
 **Sequence 7**: ([6.66GB](https://drive.google.com/file/d/1LYnXARNPOa090WUgWJ1pjzvNgOrbJEzv/view?usp=sharing))
-[![Sequence 7 Video](.jpg)]()
+
 
 **Sequence 8**: ([5.97GB](https://drive.google.com/file/d/1cw_GAMIQHgyR2AIFBA5sgqe04AZGipq7/view?usp=sharing))
-[![Sequence 8 Video](.jpg)]()
+
 
 **Sequence 9**: ([15.71GB](https://drive.google.com/file/d/1pYKhGZqiWrHSZz-BKo94vNBl2uCirPnP/view?usp=sharing))
-[![Sequence 9 Video](.jpg)]()
+
 
 **Sequence 10**: ([5.69GB](https://drive.google.com/file/d/1H4Ew-PoaRVRCLaKCCCsnr4liDttUcFc6/view?usp=sharing))
-[![Sequence 10 Video](.jpg)]()
+
 
 **Sequence 11**: ([9.16GB](https://drive.google.com/file/d/1R_eH_XIDQuvs8YTvZscE6_3KZxxSYzCa/view?usp=sharing))
-[![Sequence 11 Video](.jpg)]()
+
 
 **Sequence 12**: ([8.66GB](https://drive.google.com/file/d/1GtEjVBTcnnAO3vjntoFHLng1el62n7iA/view?usp=sharing))
-[![Sequence 12 Video](.jpg)]()
+
 
 **Sequence 13**: ([5.59GB](https://drive.google.com/file/d/1IepkUWUAddwscMZQaJOpmNfpt5ulXUvP/view?usp=sharing))
-[![Sequence 13 Video](.jpg)]()
 
 **Sequence 14**: ([4.26GB](https://drive.google.com/file/d/1LRQx3DmVfntgYOqxWzUtRLOWX-OfTJu8/view?usp=sharing))
-[![Sequence 14 Video](.jpg)]()
+
 
 **Sequence 15**: ([7.53GB](https://drive.google.com/file/d/13ZaLquhE9lTFkY6B1tFXxO_CN73Dz7lj/view?usp=sharing))
-[![Sequence 15 Video](.jpg)]()
+
 
 **Sequence 16**: ([16.47GB](https://drive.google.com/file/d/1CfOsMuUk0_Qf-EU9b9sQJ3g1TIuD5nmE/view?usp=sharing))
-[![Sequence 16 Video](.jpg)]()
 
 **Sequence 17**: ([7.04GB](https://drive.google.com/file/d/1PQkicEU100fFV-wh5pPPQJz-mP1u9lnM/view?usp=sharing))
-[![Sequence 17 Video](.jpg)]()
+
 
 **Sequence 18**: ([3.93GB](https://drive.google.com/file/d/1bTUPD8kgx-aMJ4uTabYGc6oRfFZP60rU/view?usp=sharing))
-[![Sequence 18 Video](.jpg)]()
+
 
 **Sequence 19**: ([6.57GB](https://drive.google.com/file/d/1a-UX6ZzPcFR9m2Pf3m28aDWCP1e4XJGR/view?usp=sharing))
-[![Sequence 19 Video](.jpg)]()
+
 
 **Sequence 20**: ([6.57GB](https://drive.google.com/file/d/1a-UX6ZzPcFR9m2Pf3m28aDWCP1e4XJGR/view?usp=sharing))
-[![Sequence 20 Video](.jpg)]()
+
 
 **Sequence 21**: ([4.43GB](https://drive.google.com/file/d/154NPXti0aZ84g5w4pYBAAMYgMdppgl3N/view?usp=sharing))
-[![Sequence 21 Video](.jpg)]()
+
 
 
 
