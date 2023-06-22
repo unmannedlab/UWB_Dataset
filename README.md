@@ -217,6 +217,9 @@ The following are the google drive links for the ROS Bag files.
 
 **Sequence 21:2023-02-17-17-03-49_0.bag**: ([4.43GB](https://drive.google.com/file/d/154NPXti0aZ84g5w4pYBAAMYgMdppgl3N/view?usp=sharing))
 
+## License
+All datasets and code on this page are copyright by us and published under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License. 
+
 
 
 
