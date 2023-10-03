@@ -45,7 +45,7 @@ WiDEVIEW
 ## Annotated Data:
 The dataset contains 30936 frames which come from the front three cameras with 10312 frames each. Every 5-th frame was annotated manually and carefully in [Computer Vision Annotation Tool (CVAT)](https://github.com/opencv/cvat/) for the front middle camera frames while the ones in between are interpolated automatically without adjustment. There are a total of 8368 bounding boxes manually annotated for pedestrians and cyclists along with six tag IDs for those who carried tags, and 33239 bounding boxes are interpolated in CVAT. These annotations are exported in MOT 1.1 format for the following multi-object tracking task evaluation for images. The annotations for the left and right cameras frames are in progress and will be updated on the Github gradually.
 
-### Annotations (include images) and Annotation tasks Download:
+### Annotations (include raw images) and Annotation tasks Download:
 #### Annotation folder structure
 <pre>
 rosbag_filename(subfolder_middle_annotation).zip
