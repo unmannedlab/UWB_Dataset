@@ -146,7 +146,7 @@ Data included in raw ROS bagfiles:
 
 Topic Name | Message Tpye | Message Descriptison
 ------------ | ------------- | ---------------------------------
-/Decawave | decawave_ros/uwb_distance | 
+/Decawave | decawave_ros/uwb_distance | Distances between Anchors and Tags
 /left/image_raw | sensor_msgs/Image | Images from the left camera        
 /middle/image_raw | sensor_msgs/Image | Images from the middele camera         
 /right/image_raw | sensor_msgs/Image | Images from the right camera        
