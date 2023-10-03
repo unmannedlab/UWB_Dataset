@@ -217,6 +217,20 @@ The following are the google drive links for the ROS Bag files.
 
 **Sequence 21:2023-02-17-17-03-49_0.bag**: ([4.43GB](https://drive.google.com/file/d/154NPXti0aZ84g5w4pYBAAMYgMdppgl3N/view?usp=sharing))
 
+## Citation
+```
+@misc{huang2023wideview,
+      title={WiDEVIEW: An UltraWideBand and Vision Dataset for Deciphering Pedestrian-Vehicle Interactions}, 
+      author={Jia Huang and Alvika Gautam and Junghun Choi and Srikanth Saripalli},
+      year={2023},
+      eprint={2309.16057},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
+```
+
+
+
 ## License
 All datasets and code on this page are copyright by us and published under the GNU General Public License v2.0.
 
