@@ -151,9 +151,9 @@ Topic Name | Message Tpye | Message Descriptison
 /middle/image_raw | sensor_msgs/Image | Images from the middele camera         
 /right/image_raw | sensor_msgs/Image | Images from the right camera        
 /vectornav/fix | sensor_msgs/NavSatFix |  
-/vectornav/gps | vn300/gps | INS data from VectorNav-VN300                
+/vectornav/gps | vn300/gps | GPS data from VectorNav-VN300                
 /vectornav/imu | vn300/sensors | Imu data from VectorNav-VN300            
-/vectornav/ins | vn300/ins |                
+/vectornav/ins | vn300/ins | INS data from VectorNav-VN300                
 /velodyne_points | sensor_msgs/PointCloud2 | PointCloud produced by the Velodyne Lidar
 
 ### ROS Bag Download
