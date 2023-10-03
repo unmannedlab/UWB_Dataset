@@ -48,7 +48,7 @@ The dataset contains 30936 frames which come from the front three cameras with 1
 ### Annotations (include images) and Annotation tasks Download:
 #### Annotation folder structure
 <pre>
-rosbag_filename(subfolder_middle).zip
+rosbag_filename(subfolder_middle_annotation).zip
 ├── gt
       ├── gt.txt           
       └── labels.txt 
@@ -58,11 +58,11 @@ rosbag_filename(subfolder_middle).zip
       └── ......
 </pre>
 
-Example of rosbag_filename(subfolder_middle).zip : 2023-02-04-16-04-35_0(1_middle)
+Example of rosbag_filename(subfolder_middle_annotation).zip : 2023-02-04-16-04-35_0(1_middle_annotation)
 
 #### Annotation task folder structure
 <pre>
-rosbag_filename(subfolder_middle).zip
+rosbag_filename(subfolder_middle_task).zip
 ├── annotations.json
 ├── task.json
 ├── data
@@ -70,6 +70,8 @@ rosbag_filename(subfolder_middle).zip
       ├── manifest.jsonl     
       └── output.mp4
 </pre>
+
+Example of rosbag_filename(subfolder_middle_task).zip : 2023-02-04-16-04-35_0(1_middle_task)
 
 **Sequence 1_1: 2023-02-04-16-04-35_0.bag**: ([Annotation](https://drive.google.com/file/d/1LsmbA9JuGuIn2_gIiLig2MAjlx8LoV9u/view?usp=share_link)) ([Task](https://drive.google.com/file/d/1qSWWbyzMAGpsMCUhW_IvBYoL85QEgz0a/view?usp=share_link)) 
 
