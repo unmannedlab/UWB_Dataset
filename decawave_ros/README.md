@@ -4,8 +4,8 @@ This is a ROS python package for interfacing with the DecaWave TREK1000 modules.
 
 ## Quickstart
 
-Clone the package to your catkin workspace<br>
-`git clone https://github.com/unmannedlab/decawave_ros.git`
+Copy the package to your catkin workspace<br>
+`mv decawave_ros ~/catkin_ws/src`
 
 Build the packages in catkin workspace<br>
 ```
