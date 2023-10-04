@@ -23,23 +23,10 @@ Jia Huang<sup>1</sup>, Alvika Gautam<sup>1</sup>, Junghun Choi<sup>2</sup> and S
 ## Folder structure
 
 <pre>
-WiDEVIEW
-├── 
-├── 
-├── 
-├── 
-├── 
-├── 
-├── 
-      ├──             
-      ├──      
-      ├──
-      ├── 
-      ├── 
-      ├── 
-      ├── 
-      ├── 
-      └── 
+UWB_Dataset
+├── UWB-gcart-camera-calibration    --directory for the three front cameras calibration by using Kalibr
+├── benchmarks                      --directory for object tracking benchmark by using Yolov5 and DeepSORT
+├── decawave_ros                    --directory for TREK1000 UWB ros package containing ros node and messages
 </pre>
 
 ## Annotated Data:
