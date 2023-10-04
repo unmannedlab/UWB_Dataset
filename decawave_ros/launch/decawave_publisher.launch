@@ -1,0 +1,9 @@
+<launch>
+    
+    <!-- Launch the DecaWave Driver node for T0 -->
+    <node pkg="decawave_ros" type="DecawaveNode" name="DecawaveNode" output="screen">
+        <param name="port" value="/dev/ttyACM0"/>
+        <param name="baud" value="9600" type="int"/>
+    </node>
+
+</launch>

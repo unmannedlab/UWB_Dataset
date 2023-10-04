@@ -1,0 +1,71 @@
+#!/usr/bin/env python2
+
+import rospy
+import serial
+from decawave_ros import DecaParser
+from decawave_ros.msg import uwb_distance, anchor 
+
+class DecawaveNode:
+    def __init__(self):
+        rospy.init_node('Decawave')
+        self.port = serial.Serial()
+        self.deca_pub = rospy.Publisher('Decawave', uwb_distance, queue_size=10)
+        try:
+            self.port = serial.Serial(
+                port        = rospy.get_param('~port','/dev/ttyACM0'),
+                baudrate    = rospy.get_param('~baud',9600),
+                timeout     = 10
+            )
+        except serial.SerialException:
+            print("Serial Port Connection Failure")
+
+    def run(self):
+
+        parser = DecaParser(self.port)
+        uwb_msg = uwb_distance()
+
+        while( not rospy.is_shutdown() ):
+            try:
+                msg = parser.receive()
+                print(msg)
+                if(msg):
+                    uwb_msg.dist_array = []
+                    if(not msg.r0 == 0):
+                        anc_msg = anchor()
+                        anc_msg.anc = 0
+                        anc_msg.dist = msg.r0
+                        uwb_msg.dist_array.append(anc_msg)
+
+                    if(not msg.r1 == 0):
+                        anc_msg = anchor()
+                        anc_msg.anc = 1
+                        anc_msg.dist = msg.r1
+                        uwb_msg.dist_array.append(anc_msg)
+
+                    if(not msg.r2 == 0):
+                        anc_msg = anchor()
+                        anc_msg.anc = 2
+                        anc_msg.dist = msg.r2
+                        uwb_msg.dist_array.append(anc_msg)
+                        
+                    if(not msg.r3 == 0):
+                        anc_msg = anchor()
+                        anc_msg.anc = 3
+                        anc_msg.dist = msg.r3
+                        uwb_msg.dist_array.append(anc_msg)
+                    
+                    uwb_msg.tag = msg.tag
+                    uwb_msg.header.stamp = rospy.Time.now()
+                    self.deca_pub.publish(uwb_msg)
+                    
+            except (ValueError, IOError) as err:
+                print(err)
+
+
+        if(self.port.isOpen() == True):
+            self.port.close()
+
+        
+if __name__ == "__main__":
+    dw = DecawaveNode()
+    dw.run()
