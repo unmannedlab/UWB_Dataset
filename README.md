@@ -27,10 +27,12 @@ UWB_Dataset
 ├── UWB-gcart-camera-calibration    --directory for the three front cameras calibration by using Kalibr
 ├── benchmarks                      --directory for object tracking benchmark by using Yolov5 and DeepSORT
 ├── decawave_ros                    --directory for TREK1000 UWB ros package containing ros node and messages
+├── lidar2camera                    --directory for lidar to middle camera calibration by using SensorsCalibration toolbox
+├── sensor_syn.py                   --script for sensor data approximate synchronization for future sensor fusion
 </pre>
 
 ## Annotated Data:
-The dataset contains 30936 frames which come from the front three cameras with 10312 frames each. Every 5-th frame was annotated manually and carefully in [Computer Vision Annotation Tool (CVAT)](https://github.com/opencv/cvat/) for the front middle camera frames while the ones in between are interpolated automatically without adjustment. There are a total of 8368 bounding boxes manually annotated for pedestrians and cyclists along with six tag IDs for those who carried tags, and 33239 bounding boxes are interpolated in CVAT. These annotations are exported in MOT 1.1 format for the following multi-object tracking task evaluation for images. The annotations for the left and right cameras frames are in progress and will be updated on the Github gradually.
+The dataset contains 30,936 frames which come from the front three cameras with 10,312 frames each. Every 5-th frame was annotated manually and carefully in [Computer Vision Annotation Tool (CVAT)](https://github.com/opencv/cvat/) for the front middle camera frames while the ones in between are interpolated automatically without adjustment. There are a total of 8,368 bounding boxes manually annotated for pedestrians and cyclists along with six tag IDs for those who carried tags, and 33,239 bounding boxes are interpolated in CVAT. These annotations are exported in MOT 1.1 format for the following multi-object tracking task evaluation for images. The annotations for the left and right cameras frames are in progress and will be updated on the Github gradually.
 
 ### Annotations  and Annotation tasks (include original videos) Download:
 Annotations include raw images in the img1 folder, annotation tasks include the raw videos named output.mp4 used for annotation in CVAT.
