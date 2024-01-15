@@ -98,6 +98,7 @@ cmake .. && make
    [-0.224177,0.0637302,0.000168083,6.04256e-05]
    
    ```
+   Note: This result can be improved further by adjusting the panel. 
 
-## Automatic calibration tool
+## Automatic calibration tool (To Be Added)
 
