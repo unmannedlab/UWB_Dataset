@@ -101,15 +101,3 @@ cmake .. && make
    Note: This result can be improved further by adjusting the panel. 
 
 ## Automatic calibration tool (To Be Added)
-
-## Citation
-This code is based on the research below:
-```
-@misc{2103.04558,
-Author = {Tao Ma and Zhizheng Liu and Guohang Yan and Yikang Li},
-Title = {CRLF: Automatic Calibration and Refinement based on Line Feature for LiDAR and Camera in Road Scenes},
-Year = {2021},
-Eprint = {arXiv:2103.04558},
-}
-   
-```
