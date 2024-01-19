@@ -116,10 +116,15 @@ Example of rosbag_filename(subfolder_middle_task).zip : 2023-02-04-16-04-35_0(1_
 
 
 ## Calibration:
+### Multi-cameras Intrinsic and Extrinsic Calibration
 The sensor suite cameras (left, middle and right on the autonomous shuttle roof rack) have a 30$^{\circ}$ overlapping field of view between adjacent cameras. The intrinsic and extrinsic camera parameters are estimated by the multiple camera calibration tool in the [Kalibr toolbox](https://github.com/ethz-asl/kalibr.git). A 6 x 6 aprilgrid target with spacing of 0.03m is used. We utilize a pinhole projection model for our cameras, where a three-dimensional scene is projected onto an image plane through a perspective transform. The calibration details can be found in the folder [UWB-gcart-camera-calibration](https://github.com/unmannedlab/UWB_Dataset/tree/main/UWB-gcart-camera-calibration).
 
+### Lidar to Middle Camera Calibration
+To prepare data for LiDAR and middle camera calibration, the data across both sensors is first matched by finding the pairs with the closest time stamps between two sensors. Then the point cloud and image pairs are calibrated in [SensorsCalibration toolbox](https://github.com/PJLab-ADG/SensorsCalibration.git) to facilitate the sensor fusion process. The calibration details can be found in the folder [lidar2camera](https://github.com/unmannedlab/UWB_Dataset/tree/main/lidar2camera).
+
+
 ## Benchmarks
-### 2D object Detection and Tracking
+### 2D Object Detection and Tracking
 Case | HOTA | MOTA | MOTP | IDF1 | FP | FN | ID Sw. | Recall | Precision | Dets | GT Dets | IDs | GT IDs | 
 -----| ---- | ---- |------|------|----|----|--------| -------|-----------|------|---------|-----|--------|
 1| 41.577 | 42.046  | 72.496  |  54.958  | 9144 | 11006  |  729  | 69.451 | 73.236 | 34165 | 36027 | 491 | 231 |
