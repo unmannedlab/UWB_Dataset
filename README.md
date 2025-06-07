@@ -222,14 +222,23 @@ The following are the google drive links for the ROS Bag files.
 
 ## Citation
 ```
-@misc{huang2023wideview,
-      title={WiDEVIEW: An UltraWideBand and Vision Dataset for Deciphering Pedestrian-Vehicle Interactions}, 
-      author={Jia Huang and Alvika Gautam and Junghun Choi and Srikanth Saripalli},
-      year={2023},
-      eprint={2309.16057},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO}
-}
+@ARTICLE{huang2024wideviewTIV,
+  author={Huang, Jia and Gautam, Alvika and Choi, Junghun and Saripalli, Srikanth},
+  journal={IEEE Transactions on Intelligent Vehicles}, 
+  title={Ultra-Wideband Technology for Improved Detection of Vulnerable Road Users in Urban Settings: Dataset and Evaluation}, 
+  year={2024},
+  pages={1-10},
+  keywords={Sensors;Pedestrians;Cameras;Roads;Ultra wideband technology;Location awareness;Laser radar;Distance measurement;Annotations;Autonomous vehicles;Ultra-Wideband;Dataset;Detection;Intelligent Vehicles},
+  doi={10.1109/TIV.2024.3521215}}
+
+@INPROCEEDINGS{huang2024SSRR,
+  author={Huang, Jia and Gautam, Alvika and Choi, Junghun and Saripalli, Srikanth},
+  booktitle={2024 IEEE International Symposium on Safety Security Rescue Robotics (SSRR)}, 
+  title={Assessing Ultra-Wideband Technology for Improved Detection of Vulnerable Road Users in Urban Settings}, 
+  year={2024},
+  pages={261-266},
+  keywords={Location awareness;Pedestrians;Laser radar;Roads;Urban areas;Vision sensors;Sensor fusion;Safety;Security;Ultra wideband technology},
+  doi={10.1109/SSRR62954.2024.10770056}}
 ```
 
 
